@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-header h1 {
+  margin-bottom: 20px;
+}
+
+.App-header h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.App-header ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.App-header li {
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
+/* Form styles */
+input[type="email"], 
+input[type="password"] {
+  width: 200px;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Form container */
+.form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  margin-bottom: 10px;
+}
+
+.nav-buttons button {
+  margin: 5px;
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-buttons button.active {
+  background-color: #007bff;
+}
+
+.nav-buttons button.inactive {
+  background-color: #6c757d;
+}
+
+/* Login button */
+.login-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Register button */
+.register-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Status indicators */
+.status-check {
+  color: #28a745;
+}
+
+.status-pending {
+  color: #ffc107;
+}
